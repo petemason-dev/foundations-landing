@@ -1,0 +1,29 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  display: flex;
+}
+.logo {
+}
+ul.menu {
+  display: flex;
+  list-style: none;
+}
+ul.menu a {
+}
+
+/* Hero */
+.hero {
+  display: flex;
+}
+.hero-text {
+}
+.hero-image {
+}
