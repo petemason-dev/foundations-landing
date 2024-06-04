@@ -4,26 +4,79 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.content {
+  width: 1040px;
+  margin: auto;
 }
 
 /* Header */
 .header {
+  background-color: #1f2937;
+}
+.header .content {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
 }
 ul.menu {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 26px;
 }
 ul.menu a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 /* Hero */
 .hero {
+  background-color: #1f2937;
+}
+.hero .content {
   display: flex;
+  justify-content: space-between;
+  padding: 100px 0 120px;
 }
 .hero-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  flex-basis: 50%;
+}
+.hero-text h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+.hero-text p {
+  margin: 0px 10px 10px 0;
 }
 .hero-image {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  background-color: #6d747d;
+}
+.hero button {
+  color: white;
+  background-color: #3882f6;
+  padding: 8px 36px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
 }
