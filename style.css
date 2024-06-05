@@ -114,3 +114,28 @@ ul.menu a {
 .card p {
   margin-top: 8px;
 }
+
+/* Quote */
+.quote {
+  background-color: #e5e7eb;
+}
+.quote .content {
+  padding: 100px 0;
+}
+.quote blockquote {
+  margin: 0 125px;
+}
+.quote blockquote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  padding: 0;
+  margin-bottom: 0;
+}
+.quote blockquote footer {
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  font-size: 24px;
+  padding-right: 40px;
+}
